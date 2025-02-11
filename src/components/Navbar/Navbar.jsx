@@ -10,10 +10,7 @@ export default function Navbar() {
       path: "Pizzas",
     },
     {
-      path: "Clientes",
-    },
-    {
-      path: "Onde estamos"
+      path: "Feedbacks",
     }
   ];
   return (

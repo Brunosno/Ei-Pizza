@@ -19,9 +19,9 @@ export default function PizzaSlider() {
   ];
 
   return (
-    <div id="Pizzas" className="z-30 relative font-bold w-full h-full flex">
-      <div className="w-[100%] h-[80%] my-40 md:h-[100%] md:gap-5">
-        <h1 className="text-white text-7xl text-center">Nossas Pizzas</h1>
+    <div id="Pizzas" className="z-30 relative w-full h-full flex mb-[300px]">
+      <div className="w-[100%] h-[80%] md:h-[100%] md:gap-5">
+        <h1 className="text-7xl text-center my-[100px]">Nossas Pizzas</h1>
 
         <PizzaComponent
           content={pizzas.map((pizza, index) => (

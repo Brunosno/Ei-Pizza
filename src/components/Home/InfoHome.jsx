@@ -8,7 +8,19 @@ export default function InfoHome(){
             <span className="text-white">Pizza</span>
             </h1>
 
-        <p className="text-white text-4xl">Mais do que uma pizza, uma <span className="text-[#ffde59]">experiência!</span> Cada<br />fatia é feita com paixão, ingredientes frescos e <br /> muito carinho para você saborear o melhor da <br /> vida, em cada pedaço</p>
+        <p className="text-4xl">
+            Mais do que uma pizza, uma 
+            <span className="text-[#ffde59]">
+                experiência!
+            </span>
+                Cada
+             <br />
+                fatia é feita com paixão, ingredientes frescos e 
+             <br /> 
+                muito carinho para você saborear o melhor da 
+             <br />
+                vida, em cada pedaço
+        </p>
 
        <a 
        href="https://eipizza.saipos.com/home?q=NjM5OTI5NjMxNzc%3D&utm_source=bot_whats"

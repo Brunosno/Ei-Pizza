@@ -9,11 +9,11 @@ export default function FeedBack(){
             </h1>
 
 
-            <div className="z-30 w-[90%] h-[70%] px-[50px] flex gap-10">  
+            <div className="z-30 w-[90%] h-[70%] px-[50px] flex gap-10 mt-10">  
                 <FeedBackCard/>  
                 <FeedBackCard/>
 
-                <div className="bg-white w-[600px] rounded-3xl h-full overflow-hidden">
+                <div className="bg-white min-w-[600px] rounded-3xl h-full overflow-hidden">
                     <img 
                     src={image} 
                     alt="Local" 

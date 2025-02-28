@@ -5,7 +5,7 @@ import PizzaSlider from "./components/SliderPizzas/PizzaSlider"
 
 function App() {
   return (
-    <div className="bg-[#081027] text-white font-bold">
+    <div className="bg-[#081027] text-white font-bold w-full">
       <Navbar />
       <Home />
       <PizzaSlider />

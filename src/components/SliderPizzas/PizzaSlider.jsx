@@ -26,11 +26,11 @@ export default function PizzaSlider() {
         <PizzaComponent
           content={pizzas.map((pizza, index) => (
             <SwiperSlide key={index}>
-              <div className="w-full h-full flex flex-col items-center gap-4">
+              <div className="w-full h-full flex flex-col items-center gap-4 2xl:mt-[80px]">
                 <img
                   src={pizza.imagem}
                   alt={pizza.sabor}
-                  className="w-[350px]"
+                  className="w-[350px] 2xl:w-[450px]"
                 />
 
                 <h2 className="text-white text-5xl">{pizza.sabor}</h2>

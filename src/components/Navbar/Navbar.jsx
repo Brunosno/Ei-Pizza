@@ -11,14 +11,31 @@ export default function Navbar() {
     },
     {
       path: "Feedbacks",
-    }
+    },
   ];
   return (
     <>
-      <nav className="z-50 flex justify-around w-full bg-[#062d99] py-4 px-10 fixed">
-        <img src={image} alt="Logo-Ei-Pizza" className="w-[200px]" />
+      <nav className="
+      z-50 
+      fixed 
+      flex 
+      justify-between
+      sm:justify-around 
+      w-screen
+      bg-[#062d99] 
+      py-4 
+      px-10">
+        <img src={image} alt="Logo-Ei-Pizza" className="
+        w-[200px] 
+        hidden 
+        md:flex" />
 
-        <ul className="flex justify-center items-center gap-14 text-white font-bold">
+        <ul className="flex 
+        justify-center 
+        items-center 
+        gap-14 
+        text-white 
+        font-bold">
           {item.map((item, index) => (
             <NavItem key={index} path={item.path}></NavItem>
           ))}

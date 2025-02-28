@@ -17,8 +17,9 @@ export default function Navbar() {
     <>
       <nav className="
       z-50 
-      fixed 
-      flex 
+      fixed
+      hidden
+      md:flex 
       justify-between
       sm:justify-around 
       w-screen

@@ -2,7 +2,7 @@ import image from "../../assets/LogoCard.jpg"
 
 export default function FeedBackCard(){
     return(
-        <div className="bg-white h-[500px] w-[100%] md:w-[400px] md:h-[600px] rounded-3xl overflow-hidden">
+        <div className="bg-white h-full w-full md:w-[400px] md:h-[600px] rounded-3xl overflow-hidden">
             <div className=" flex px-8 gap-3 md:py-2">
                 <img 
                 src={image}

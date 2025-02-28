@@ -19,7 +19,7 @@ export default function PizzaSlider() {
   ];
 
   return (
-    <div id="Pizzas" className="z-30 relative w-full h-full flex mb-[300px]">
+    <div id="Pizzas" className="z-30 relative w-full h-full flex mb-[200px]">
       <div className="w-[100%] h-[80%] md:h-[100%] md:gap-5">
         <h1 className="text-5xl md:text-7xl text-center my-[100px]">Nossas Pizzas</h1>
 
